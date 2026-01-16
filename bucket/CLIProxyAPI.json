@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v6.7.3/CLIProxyAPI_6.7.3_windows_amd64.zip",
-            "hash": "b268f7004f215d2a7160351197472856f663f73801f531398864f195616a6988"
+            "hash": "bf74b7e38b97216629573f72d3fca2f3da46e18b9c319b9dbbe5a6fd99d93816"
         }
     },
     "bin": "cli-proxy-api.exe",
