@@ -2,13 +2,20 @@
     "version": "6.7.3",
     "description": "A CLI tool for proxy API management.",
     "homepage": "https://github.com/router-for-me/CLIProxyAPI",
-    "license": "MIT",
+    "license": "Unknown",
     "architecture": {
         "64bit": {
             "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v6.7.3/CLIProxyAPI_6.7.3_windows_amd64.zip",
             "hash": "bf74b7e38b97216629573f72d3fca2f3da46e18b9c319b9dbbe5a6fd99d93816"
         }
     },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\")) { New-Item -Path \"$persist_dir\" -ItemType Directory -Force | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\config.yaml\")) { ",
+        "    Set-Content -Path \"$persist_dir\\config.yaml\" -Value '' -Encoding UTF8",
+        "}"
+    ],
+    "persist": "config.yaml",
     "bin": "cli-proxy-api.exe",
     "checkver": "github",
     "autoupdate": {
