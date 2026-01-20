@@ -1,10 +1,10 @@
 {
-    "version": "2.4.7.0",
+    "version": "2.4.8.0",
     "description": "An all-in-one, free screenshot tool with annotation, pinning, OCR and recording features.",
     "homepage": "https://pixpin.cn/",
     "license": "Proprietary",
-    "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_2.4.7.0.zip",
-    "hash": "7932835a23a5d9c8a31c7512970c5cb20bbea5cd20ce96681eb9753598aecd84",
+    "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_2.4.8.0.zip",
+    "hash": "515733adbfdc0920ef899351a6daa513e3a5e2c9a11b1ce48c9cdb6d03b9112b",
     "extract_dir": "PixPin",
     "post_install": [
         "$ConfigPath = Join-Path -Path \"$persist_dir\\Config\" -ChildPath \"PixPinConfig.json\"",
