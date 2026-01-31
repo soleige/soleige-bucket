@@ -1,12 +1,12 @@
 {
-    "version": "6.7.31",
+    "version": "6.7.37",
     "description": "A CLI tool for proxy API management.",
     "homepage": "https://github.com/router-for-me/CLIProxyAPI",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v6.7.31/CLIProxyAPI_6.7.31_windows_amd64.zip",
-            "hash": "2bc965256061e4a9fe6983c946e31034d45c36a74c7bae9ade1aa3d06105d949"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v6.7.37/CLIProxyAPI_6.7.37_windows_amd64.zip",
+            "hash": "209974716e01db004138040c34353d8397867aa243175b5bf8c013d9a71196d8"
         }
     },
     "pre_install": [
